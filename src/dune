@@ -1,0 +1,5 @@
+(library
+ (name zoom_exporter_lib)
+ (libraries core async cohttp cohttp-async lambdasoup)
+ (preprocess
+  (pps ppx_jane ppx_yojson_conv)))

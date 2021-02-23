@@ -1,0 +1,5 @@
+(executable
+ (name zoom_exporter)
+ (libraries core async zoom_exporter_lib)
+ (preprocess
+  (pps ppx_jane)))
